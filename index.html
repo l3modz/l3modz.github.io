@@ -11,12 +11,58 @@
 
 <center><h1>https://l3modz.github.io/</h1>
 
-<br />try <a href="https://www.wix.com/" target="_blank">https://www.wix.com/</a> for easy make Website by templates.<br />
+<br />try <a href="https://www.wix.com/" target="_blank">https://www.wix.com/</a> for easy make Website by using templates.<br />
 <hr /><br /></center>
-<h2><center>Create your Website on Tablet Android Tape Unit/Android/Windows as geek webMusicProfileAudioSystem cars<br /><br /><i>Download Code :</i> <a href="https://github.com/l3modz/PHPwebDesktopMobilePS4webVersion" target="_blank">https://github.com/l3modz/PHPwebDesktopMobilePS4webVersion</a><br /><br/>
+<h2><center>Create your Website on Tablet Android Tape Unit/Android Tablet/Windows Tablet as geek webMusicProfileAudioSystem cars<br /><br /><i><u>Download Code :</u></i> <a href="https://github.com/l3modz/PHPwebDesktopMobilePS4webVersion" target="_blank">https://github.com/l3modz/PHPwebDesktopMobilePS4webVersion</a><br /><br/>
  buy me coffee for my spirit to coding.. just $USD:2,5<blink>43</blink> [two dollar, five four three sen] ^_^ ^_^</center></h2>
+ <center><div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'rect',
+          color: 'black',
+          layout: 'vertical',
+          label: 'paypal',
+          
+        },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"description":"Download Code : https://github.com/l3modz/PHPwebDesktopMobilePS4webVersion","amount":{"currency_code":"USD","value":3.5,"breakdown":{"item_total":{"currency_code":"USD","value":1},"shipping":{"currency_code":"USD","value":2.5},"tax_total":{"currency_code":"USD","value":0}}}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(orderData) {
+            
+            // Full available details
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+            // Show a success message within this page, e.g.
+            const element = document.getElementById('paypal-button-container');
+            element.innerHTML = '';
+            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script></center>
 <hr /><br />
-<center><br /><h2>Script for Minetest game online, Running Text Script for your channel on Twitter<br /><i>Download</i><br /><br />
+<center><br /><h2>Script for Minetest game online, Running Text Script for your channel on Twitch.TV<br /><i><u>Download</u></i><br /><br />
 <a href="https://bit.ly/PogYMdm" target="_blank">HTML TypeWriter Your Channel TwitchTV</a><br /><br />
 <a href="https://bit.ly/KKYPOre" target="_blank">HTML style visibility delay</a></h2><br /><br />
 <hr /></center>
