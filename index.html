@@ -66,52 +66,7 @@
 <a href="https://bit.ly/PogYMdm" target="_blank">HTML TypeWriter Your Channel TwitchTV</a><br /><br />
 <a href="https://bit.ly/KKYPOre" target="_blank">HTML style visibility delay</a></h2><br /><br />
 <hr /></center>
-<center><div id="smart-button-container">
-      <div style="text-align: center;">
-        <div id="paypal-button-container"></div>
-      </div>
-    </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-  <script>
-    function initPayPalButton() {
-      paypal.Buttons({
-        style: {
-          shape: 'rect',
-          color: 'black',
-          layout: 'vertical',
-          label: 'paypal',
-          
-        },
-
-        createOrder: function(data, actions) {
-          return actions.order.create({
-            purchase_units: [{"description":"Download Code : https://github.com/l3modz/PHPwebDesktopMobilePS4webVersion","amount":{"currency_code":"USD","value":3.5,"breakdown":{"item_total":{"currency_code":"USD","value":1},"shipping":{"currency_code":"USD","value":2.5},"tax_total":{"currency_code":"USD","value":0}}}}]
-          });
-        },
-
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(orderData) {
-            
-            // Full available details
-            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-
-            // Show a success message within this page, e.g.
-            const element = document.getElementById('paypal-button-container');
-            element.innerHTML = '';
-            element.innerHTML = '<h3>Thank you for your payment!</h3>';
-
-            // Or go to another URL:  actions.redirect('thank_you.html');
-            
-          });
-        },
-
-        onError: function(err) {
-          console.log(err);
-        }
-      }).render('#paypal-button-container');
-    }
-    initPayPalButton();
-  </script></center>
+<!-- must move to Online ??? -->
   <br /><br />
   <h2><div center>Don't forget download <a href="https://github.com/l3modz/passkeeper/tree/master" target="_blank">Password Keeper Web Version</a> for your office coorporate Manager Password of your users, it more save just access from your local network Webserver Apache/LAMP, and using agreement of using users and passwords of your users office and type at paper and save to brankas, valuable brankas. It [Password Keeper Web Version] encrypted the password manager using AES 256. Wish me luck..</div></h2>
 <hr />
