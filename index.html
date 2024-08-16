@@ -3,7 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <!-- l3modz have been here -->
-
+<script>
+  let text = document.getElementById('WalletOfMe').innerHTML;
+  const copyContent = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      console.log('Wallet number copied to clipboard.');
+    } catch (err) {
+      console.error('Failed to copy: ', err);
+    }
+  }
+</script>
 <title>l3modz's ordinary page</title>
 </head>
 <body>
@@ -15,7 +25,8 @@
 <hr /><br /></center>
 <h2><center>Create your Website on Tablet Android Tape Unit/Android Tablet/Windows Tablet as geek webMusicProfileAudioSystem cars<br /><br /><i><u>Download Code :</u></i><br /><a href="https://github.com/l3modz/PHPwebDesktopMobilePS4webVersion" target="_blank">https://github.com/l3modz/PHPwebDesktopMobilePS4webVersion</a><br /><br/>
  buy me coffee for spirit of me to coding.. just $USD:2,5<blink>43</blink> [two dollar, five four three sen] <br />^_^ ^_^<br />
-hmmm buy me a coffee to spirit $USD:2,7. by using Crypto Wallet : 0xdBf3C62412D2CDb01f6C04cC3335a6cABAfBfD44 .
+hmmm buy me a coffee to spirit $USD:2,7. by using Crypto Wallet : <div id="WalletOfMe">0xdBf3C62412D2CDb01f6C04cC3335a6cABAfBfD44</a> <button class="btn" onclick="copyContent()">Copy to Clipboard</button>.
+
 </center></h2>
  <center><div id="smart-button-container">
       <div style="text-align: center;">
